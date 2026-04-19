@@ -27,7 +27,7 @@ def draw_dice(screen, x, y, number, size=100):
     py.draw.circle(screen, (0, 0, 0), pos, dot_radius)
 
 def roll_dice():
-  rolls = np.random.randint(low=1, high=6, size=2)
+  rolls = np.random.randint(low=1, high=7, size=2)
   return rolls
 
 class Button:
